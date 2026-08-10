@@ -87,7 +87,9 @@ Food categories were analysed to understand their contribution to overall sales.
 
 The `assets` folder contains the dashboard and analysis screenshots used to present the project.
 
-The complete Excel workbook is maintained separately due to GitHub file-size limitations.
+### 📊 Complete Excel Workbook
+
+[View the Complete Swiggy Excel Project](https://docs.google.com/spreadsheets/d/1Lwj9AKP8JySLT7R9xFJ93NfHAKXwPfWN/edit?usp=drive_link)
 
 ## 🎯 Conclusion
 
