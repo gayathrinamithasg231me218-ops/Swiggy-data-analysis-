@@ -2,9 +2,9 @@
 
 ## 📌 Introduction
 
-This project analyses Swiggy food delivery data using Microsoft Excel to identify trends and patterns in sales, restaurants, food categories, ratings, geographic performance, and order behaviour.
+This project analyses Swiggy food delivery data using Microsoft Excel to identify patterns in sales, food categories, restaurants, customer ratings, geographic performance, and order behaviour.
 
-The project uses Excel-based data analysis techniques to transform raw data into meaningful business insights through PivotTables, PivotCharts, slicers, KPI calculations, and an interactive dashboard.
+The project transforms raw food delivery data into business-oriented insights using PivotTables, PivotCharts, slicers, KPI calculations, and an interactive dashboard.
 
 ## 🎯 Project Objectives
 
@@ -13,22 +13,31 @@ The analysis focuses on:
 - Understanding overall sales performance
 - Analysing monthly and quarterly sales trends
 - Comparing Veg and Non-Veg sales
-- Analysing state-wise sales performance
-- Studying restaurant-level performance
+- Identifying high-performing states
+- Analysing restaurant-level performance
 - Understanding food category trends
 - Analysing customer ratings
 - Comparing day-wise sales
 - Calculating key business KPIs
 
-## 📊 Key Performance Indicators
+## 📂 Dataset
 
-The dashboard tracks:
+The dataset contains approximately 197,430 records and includes information such as:
 
-- Total Sales
-- Average Rating
+- State
+- City
+- Order Date
+- Day
+- Quarter
+- Week
+- Restaurant Name
+- Location
+- Category
+- Dish Name
+- Food Type
+- Price
+- Rating
 - Rating Count
-- Total Orders
-- Average Order Value (AOV)
 
 ## 🛠️ Excel Skills Used
 
@@ -41,49 +50,104 @@ The dashboard tracks:
 - Conditional formatting
 - Dashboard development
 
+## 📊 Key Performance Indicators
+
+The overall analysis reports:
+
+| KPI | Value |
+|---|---:|
+| Total Sales | ₹46.36M |
+| Average Rating | 4.34 |
+| Average Order Value | ₹251.36 |
+| Orders in Quarterly Analysis | 172,490 |
+
+> Dashboard KPIs are interactive and change based on the selected slicers and filters.
+
 ## 📈 Dashboard
 
-The interactive dashboard provides a consolidated view of Swiggy's sales and order performance.
+The interactive dashboard provides a consolidated view of sales, ratings, orders, food type, and geographic performance.
 
 ![Swiggy Dashboard](assets/dashboard.jpeg)
 
 ## 📊 Analysis
 
-The analysis sheet contains detailed breakdowns of sales across different dimensions including time, food type, states, restaurants, and categories.
+The analysis sheet contains detailed breakdowns of sales across time, food type, states, restaurants, categories, and other dimensions.
 
 ![Swiggy Analysis](assets/analysis.png)
 
-## 🔍 Key Analysis Areas
+## 🔍 Key Analysis & Insights
 
-### 1. Monthly Sales Analysis
+### 1. Overall Sales Performance
 
-Monthly sales were analysed to identify changes in sales performance across the available months.
+The analysis records total sales of approximately **₹46.36M**, with an overall average rating of **4.34** and an average order value of approximately **₹251.36**.
 
-### 2. Day-wise Sales Analysis
+### 2. Monthly Sales Analysis
 
-Sales were compared across different days of the week to identify higher and lower performing days.
+Monthly sales remained relatively consistent across the reported months.
 
-### 3. Quarterly Analysis
+**May recorded the highest monthly sales at approximately ₹6.79M**, closely followed by August at approximately ₹6.79M.
 
-Sales, orders, and average ratings were compared across quarters.
+### 3. Day-wise Sales Analysis
 
-### 4. State-wise Analysis
+Saturday generated the highest sales among the days analysed, with approximately **₹6.88M** in sales.
 
-Sales were analysed across different Indian states to identify geographic differences in performance.
+Tuesday recorded the lowest sales at approximately **₹6.28M**.
+
+This represents a difference of approximately **₹0.61M** between the highest and lowest performing days.
+
+### 4. Quarterly Analysis
+
+Q2 recorded the highest sales among the reported quarters:
+
+- **Q1:** ₹19.67M
+- **Q2:** ₹19.90M
+- **Q3:** ₹6.79M
+
+Q2 also recorded approximately **74.2K orders**, compared with **73.1K orders in Q1**.
 
 ### 5. Food Type Analysis
 
-Sales were compared between Veg and Non-Veg food categories.
+Veg food contributed approximately **₹29.87M**, accounting for around **64.4% of total sales**.
 
-### 6. Restaurant Analysis
+Non-Veg food contributed approximately **₹16.49M**, accounting for around **35.6% of total sales**.
 
-Restaurant-level data was analysed to understand differences in sales performance.
+This indicates a substantially higher sales contribution from Veg food in the analysed dataset.
 
-### 7. Category Analysis
+### 6. State-wise Analysis
 
-Food categories were analysed to understand their contribution to overall sales.
+**Karnataka recorded the highest state-level sales at approximately ₹4.77M.**
 
-## 📂 Project Files
+Other high-performing states included:
+
+- Uttar Pradesh — ₹2.74M
+- Maharashtra — ₹2.64M
+- Telangana — ₹2.63M
+- Delhi — ₹2.48M
+
+Karnataka alone contributed approximately **10.3% of overall sales**.
+
+### 7. Restaurant Analysis
+
+Restaurant-level data was analysed to compare sales performance across restaurants and identify differences in contribution to overall sales.
+
+Interactive restaurant filters allow users to explore individual restaurant performance through the dashboard.
+
+### 8. Category Analysis
+
+Food categories were analysed to understand their contribution to overall sales and to identify variations in customer demand across different food types.
+
+## 🎛️ Interactive Dashboard Features
+
+The dashboard includes interactive filters for:
+
+- State
+- Restaurant Name
+- Month
+- Category
+
+These slicers allow users to dynamically explore the dataset and observe changes in KPIs and visualizations.
+
+## 📁 Project Files
 
 The `assets` folder contains the dashboard and analysis screenshots used to present the project.
 
@@ -93,4 +157,6 @@ The `assets` folder contains the dashboard and analysis screenshots used to pres
 
 ## 🎯 Conclusion
 
-This project demonstrates how Microsoft Excel can be used to transform a large food delivery dataset into an interactive analytical dashboard and generate business-oriented insights from sales, customer, restaurant, and geographic data.
+This project demonstrates how Microsoft Excel can be used to transform a large food delivery dataset into an interactive analytical dashboard.
+
+The analysis highlights important patterns in sales performance, food type contribution, geographic performance, time-based trends, and customer ratings, providing a business-oriented view of Swiggy's food delivery data.
