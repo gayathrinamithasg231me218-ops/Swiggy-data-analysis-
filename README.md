@@ -33,7 +33,7 @@ The analysis was performed using Microsoft Excel with PivotTables, PivotCharts, 
 
 ## 📈 Dashboard
 
-![Swiggy Dashboard](Swiggy_Excel_Analysis/assets/dashboard.png)
+![Swiggy Dashboard](Swiggy_Excel_Analysis/assets/dashboard.jpeg)
 
 ## 📊 Analysis
 
